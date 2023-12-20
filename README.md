@@ -28,7 +28,9 @@ This repository contains code for a Search Engine application, along with instru
 
 ## Running the Tests
 To execute the tests, use the following command: 
+```terminal
 mvn test -Dsearch_param=selenium
+```
 
 This command runs Maven tests while passing the search_param property with the value selenium to your tests
 
