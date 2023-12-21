@@ -23,12 +23,14 @@ This repository contains code for a Search Engine application, along with instru
 
 ## Installation
 1. Ensure you have Java 8 and Maven 3.9.6 installed.
-2. Clone the repository: "https://github.com/suleymanatmacca/SearchEngine.git"
+2. Clone the repository: "https://github.com/suleymanatmaca/Search_Engine.git"
 3. Navigate to the project directory: `cd SearchEngine`
 
 ## Running the Tests
 To execute the tests, use the following command: 
+```terminal
 mvn test -Dsearch_param=selenium
+```
 
 This command runs Maven tests while passing the search_param property with the value selenium to your tests
 
