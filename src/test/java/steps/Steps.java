@@ -28,7 +28,6 @@ public class Steps extends Initialize {
 
     public void searchOnYandex(String searchKeyword) {
         yandexMainPage.sendKeysToSearchBox(searchKeyword);
-        //yandexMainPage.clickSearchButton();
         methodes.sleep(1000);
     }
 

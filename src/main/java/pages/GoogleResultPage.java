@@ -16,7 +16,7 @@ public class GoogleResultPage extends Initialize {
     private List<WebElement> contentElements;
 
     public void saveResultData(int number) {
-        methodes.scrollDownUntilElementVisiable(MORE_CONTENTS);
+        methodes.scrollDownUntilElementVisible(MORE_CONTENTS);
         methodes.sleep(1000);
         dataHelper.writeJsonFile(getContentArrayList(number));
     }

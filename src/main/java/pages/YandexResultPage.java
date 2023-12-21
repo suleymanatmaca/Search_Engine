@@ -2,9 +2,9 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.Initialize;
 import utils.pojo.AllContents;
 import utils.pojo.Contents;
-import utils.Initialize;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +39,7 @@ public class YandexResultPage extends Initialize {
                     break;
                 }
             }
-            System.out.println("Yandex content list göründü :");
+            System.out.println("Yandex content list görüldü :");
 
             contentsArrayList.forEach(content -> {
                 System.out.println("Header : " + content.getHeader() + ", Title : " + content.getTitle() + ", URL : " + content.getUrl());

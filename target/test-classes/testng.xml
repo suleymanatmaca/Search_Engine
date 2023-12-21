@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Demo suite - Google search">
 
-    <test name="Functional tests in ${search_param}">
+    <test name="Functional tests in selenium">
 
-        <parameter name="search" value="${search_param}" />
+        <parameter name="search" value="selenium" />
         <classes>
             <class name="RunTest" />
         </classes>

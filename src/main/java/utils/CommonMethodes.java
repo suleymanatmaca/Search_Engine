@@ -48,11 +48,11 @@ public class CommonMethodes extends Initialize {
 
     public List<WebElement> findElements(By by) {
         wait.until(ExpectedConditions.presenceOfElementLocated(by));
-        System.out.println(by.toString() + " Elementi görüldü");
+        System.out.println(by.toString() + " Elementleri görüldü");
         return driver.findElements(by);
     }
 
-    public void scrollDownUntilElementVisiable(By by) {
+    public void scrollDownUntilElementVisible(By by) {
         wait.until(ExpectedConditions.presenceOfElementLocated(by));
 
         try {
@@ -61,7 +61,7 @@ public class CommonMethodes extends Initialize {
             actions.moveToElement(element);
             actions.perform();
         } catch (Exception e) {
-            System.out.println("Daha fazla content bulunmadı.");
+            System.out.println("Daha fazla content bulunamadı.");
         }
     }
 
